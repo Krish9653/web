@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gaurav Tourist and Taxi Service</title>
+    <script src="script.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f2f2f2;
+      }
+
+      header {
+        background-color: #ffcc00;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+
+      nav a {
+        float: left;
+        display: block;
+        color: rgb(250, 244, 244);
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: rgb(99, 99, 86);
+      }
+
+      .hero {
+        background-image: url("https://via.placeholder.com/1200x400?text=Taxi+Service");
+        background-size: cover;
+        padding: 100px 20px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+      }
+
+      .services {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #fff;
+      }
+
+      .service-box {
+        width: 30%;
+        background-color: #fafafa;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Gaurav Tourist and Taxi Service</h1>
+      <p>Reliable · Affordable · On Time</p>
+    </header>
+
+    <nav>
+      <a onclick="documentlocation='index.html'">Home</a>
+      <a onclick="document.location='aboutus.html'">About Us</a>
+      <a href="#">Services</a>
+      <a onclick="document.location='contact.html'">Contact</a>
+    </nav>
+
+    <div class="hero">
+      <h2>Your Ride, Anytime, Anywhere</h2>
+      <p>Book your taxi in just a few clicks</p>
+      <button onclick="document.location='taxi.html'">Book Now</button>
+    </div>
+
+    <div class="services">
+      <div class="service-box">
+        <h3>City Rides</h3>
+        <p>Quick and safe rides within the city.</p>
+      </div>
+      <div class="service-box">
+        <h3>Outstation</h3>
+        <p>Plan weekend gateways with our reliable cabs.</p>
+      </div>
+      <div class="service-box">
+        <h3>Airport Pickup</h3>
+        <p>On-time pick up and drop at the airport.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Gaurav Tourist and Taxi Service. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
